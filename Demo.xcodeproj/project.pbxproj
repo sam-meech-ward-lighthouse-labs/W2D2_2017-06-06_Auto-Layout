@@ -13,6 +13,7 @@
 		22FB47E71EE70C360084F15B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FB47E51EE70C360084F15B /* Main.storyboard */; };
 		22FB47E91EE70C360084F15B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FB47E81EE70C360084F15B /* Assets.xcassets */; };
 		22FB47EC1EE70C360084F15B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FB47EA1EE70C360084F15B /* LaunchScreen.storyboard */; };
+		22FB47F51EE719950084F15B /* AutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FB47F41EE719950084F15B /* AutoLayoutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		22FB47E81EE70C360084F15B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22FB47EB1EE70C360084F15B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22FB47ED1EE70C360084F15B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22FB47F31EE719950084F15B /* AutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutViewController.h; sourceTree = "<group>"; };
+		22FB47F41EE719950084F15B /* AutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				22FB47E01EE70C360084F15B /* AppDelegate.m */,
 				22FB47E21EE70C360084F15B /* ViewController.h */,
 				22FB47E31EE70C360084F15B /* ViewController.m */,
+				22FB47F31EE719950084F15B /* AutoLayoutViewController.h */,
+				22FB47F41EE719950084F15B /* AutoLayoutViewController.m */,
 				22FB47E51EE70C360084F15B /* Main.storyboard */,
 				22FB47E81EE70C360084F15B /* Assets.xcassets */,
 				22FB47EA1EE70C360084F15B /* LaunchScreen.storyboard */,
@@ -154,6 +159,7 @@
 				22FB47E41EE70C360084F15B /* ViewController.m in Sources */,
 				22FB47E11EE70C360084F15B /* AppDelegate.m in Sources */,
 				22FB47DE1EE70C360084F15B /* main.m in Sources */,
+				22FB47F51EE719950084F15B /* AutoLayoutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
